@@ -11,6 +11,8 @@
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
 #export COMMANDLINE_ARGS=""
+export COMMANDLINE_ARGS="-u"
+export PYTHONUNBUFFERED=1
 
 # python3 executable
 #python_cmd="python3"
